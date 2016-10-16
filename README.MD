@@ -48,15 +48,17 @@ Source: [Ask Ubuntu][5]
 
 ### 3 - Change the SSH port from 22 to 2200 and configure SSH access
 Source: [Ask Ubuntu][6]
+Source: [Digitalocean][22]
 
 1. Change ssh config file:
   1. Open the config file:
     `$ sudo nano /etc/ssh/sshd_config`
   2. Change to Port 2200.
-  3. Change `PermitRootLogin` from `without-password` to `no`.
-  4. Temporalily change `PasswordAuthentication` from `no` to `yes`.
-  5. Append `UseDNS no`.
-  6. Append `AllowUsers catalog`.
+  3. To see by Rule: `sudo ufw status numbered` to delete port 22 `sudo ufw delete 1`(for me 1 was port 22)
+  4. Change `PermitRootLogin` from `without-password` to `no`.
+  5. Temporalily change `PasswordAuthentication` from `no` to `yes`.
+  6. Append `UseDNS no`.
+  7. Append `AllowUsers catalog`.
 2. Restart SSH Service:
   `$ /etc/init.d/ssh restart` or `# service sshd restart`
 3. Create SSH Keys:
@@ -354,3 +356,4 @@ Source: [DigitalOcean][17]
 [19]: http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory "Python: No such file or directory"
 [20]: http://discussions.udacity.com/t/oauth-provider-callback-uris/20460 "OAuth Provider callback uris"
 [21]: http://httpd.apache.org/docs/2.2/en/vhosts/name-based.html "Name-based Virtual Host Support"
+[22]: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04 "How To Set Up a Firewall with UFW on Ubuntu 14.04"
