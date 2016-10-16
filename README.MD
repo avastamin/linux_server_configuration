@@ -38,7 +38,7 @@ Source: [DigitalOcean][3]
    1. To install finger `sudo apt-get install finger`
    2. To see details about user `grader` use `finger grader`
 
-### 3. - Update and upgrade all currently installed packages
+### 3.1 - Update and upgrade all currently installed packages
 Source: [Ask Ubuntu][5]
 
    1. Update the list of available packages and their versions:
@@ -46,7 +46,7 @@ Source: [Ask Ubuntu][5]
    2. Install newer vesions of packages you have:
    `$ sudo sudo apt-get upgrade`
 
-### 3 - Change the SSH port from 22 to 2200 and configure SSH access
+### 3.2 - Change the SSH port from 22 to 2200 and configure SSH access
 Source: [Ask Ubuntu][6]
 Source: [Digitalocean][22]
 
