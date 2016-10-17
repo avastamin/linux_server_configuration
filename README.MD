@@ -5,6 +5,7 @@ A baseline installation of Ubuntu Linux on a virtual machine to host a Flask web
 
 **Note to be considered:**
  Below, I described step by step solution and also I ponited out what kind of problem I faced and it's solution. I configured my existing
+ [Public link to the site][23]
  [catalog application][1]
 
 ## Step by Step guidelines
@@ -329,7 +330,7 @@ Source: [DigitalOcean][17]
 5. To get the Google+ authorization working:
   1. Go to the project on the Developer Console: https://console.developers.google.com/project
   2. Navigate to APIs & auth > Credentials > Edit Settings
-  3. add your host name and public IP-address to your Authorized JavaScript origins and your host name + oauth2callback to Authorized redirect URIs, e.g. http://ec2-52-25-0-41.us-west-2.compute.amazonaws.com/oauth2callback
+  3. add your host name and public IP-address to your Authorized JavaScript origins and your host name + oauth2callback to Authorized redirect URIs, e.g. http://ec2-54-190-18-187.us-west-2.compute.amazonaws.com/
 6. To get the Facebook authorization working:
   1. Go on the Facebook Developers Site to My Apps https://developers.facebook.com/apps/
   2. Click on your App, go to Settings and fill in your public IP-Address including prefixed hhtp:// in the Site URL field
@@ -357,3 +358,4 @@ Source: [DigitalOcean][17]
 [20]: http://discussions.udacity.com/t/oauth-provider-callback-uris/20460 "OAuth Provider callback uris"
 [21]: http://httpd.apache.org/docs/2.2/en/vhosts/name-based.html "Name-based Virtual Host Support"
 [22]: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04 "How To Set Up a Firewall with UFW on Ubuntu 14.04"
+[23]: http://ec2-54-190-18-187.us-west-2.compute.amazonaws.com/  "Public link of this project" 
