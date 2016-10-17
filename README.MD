@@ -5,8 +5,8 @@ A baseline installation of Ubuntu Linux on a virtual machine to host a Flask web
 
 **Note to be considered:**
  Below, I described step by step solution and also I ponited out what kind of problem I faced and it's solution. I configured my existing
- [Public link to the site][23]
  [catalog application][1]
+ which can be accessed here:  [Public link to the site][23]
 
 ## Step by Step guidelines
 In the detailed guide below, I tried to briefly document the steps I used to run my application. I also tried to write all in order so that,
